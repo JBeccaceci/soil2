@@ -104,16 +104,16 @@
 #define GL_RG                             0x8227
 #endif
 
-#include "SOIL2.h"
+#include "../include/SOIL2.h"
 #define STB_IMAGE_IMPLEMENTATION
-#include "stb_image.h"
+#include "../include/stb_image.h"
 #define STB_IMAGE_WRITE_IMPLEMENTATION
-#include "stb_image_write.h"
-#include "image_helper.h"
-#include "image_DXT.h"
-#include "pvr_helper.h"
-#include "pkm_helper.h"
-#include "jo_jpeg.h"
+#include "../include/stb_image_write.h"
+#include "../include/image_helper.h"
+#include "../include/image_DXT.h"
+#include "../include/pvr_helper.h"
+#include "../include/pkm_helper.h"
+#include "../include/jo_jpeg.h"
 
 #include <stdlib.h>
 #include <string.h>
